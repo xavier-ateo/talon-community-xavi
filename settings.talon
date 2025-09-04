@@ -7,13 +7,13 @@ settings():
     # speech.timeout = 0.3
 
     # Uncomment to enable dark mode for talon help menus
-    # imgui.dark_mode = true
+    imgui.dark_mode = true
 
     # If `true`, automatically show the picker GUI when the file manager has focus
     user.file_manager_auto_show_pickers = false
 
     # Set the number of command lines to display per help page
-    user.help_max_command_lines_per_page = 50
+    user.help_max_command_lines_per_page = 40
 
     # Set the number of contexts to display per help page
     user.help_max_contexts_per_page = 20
@@ -25,7 +25,7 @@ settings():
     user.mouse_continuous_scroll_amount = 8
 
     # Set the scroll multiplier for gaze scroll
-    user.mouse_gaze_scroll_speed_multiplier = 1.0
+    user.mouse_gaze_scroll_speed_multiplier = 0.5
 
     # Set the maximum acceleration factor when scrolling continuously. 1=constant speed/no acceleration.
     user.mouse_continuous_scroll_acceleration = 1
@@ -56,7 +56,7 @@ settings():
     user.mouse_wake_hides_cursor = false
 
     # Set the amount to scroll up/down
-    user.mouse_wheel_down_amount = 120
+    user.mouse_wheel_down_amount = 500
 
     # Set the amount to scroll left/right
     user.mouse_wheel_horizontal_amount = 40
