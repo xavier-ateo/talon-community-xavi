@@ -38,7 +38,7 @@ properties show: user.file_manager_show_properties()
 terminal here: user.file_manager_terminal_here()
 
 folder next: user.file_manager_next_folder_page()
-folder last: user.file_manager_previous_folder_page()
+folder previous: user.file_manager_previous_folder_page()
 
 file next: user.file_manager_next_file_page()
-file last: user.file_manager_previous_file_page()
+file previous: user.file_manager_previous_file_page()
