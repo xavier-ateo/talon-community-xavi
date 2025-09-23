@@ -22,6 +22,8 @@ os: mac
 and app.bundle: com.todesktop.230313mzl4w4u92
 os: mac
 and app.bundle: com.exafunction.windsurf
+os: mac
+and app.name: Windsurf
 """
 mod.apps.vscode = """
 os: linux
@@ -64,6 +66,8 @@ os: windows
 and app.exe: /^cursor\.exe$/i
 os: windows
 and app.exe: /^positron\.exe$/i
+os: windows
+and app.exe: /^windsurf\.exe$/i
 """
 
 ctx.matches = r"""
